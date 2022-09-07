@@ -320,6 +320,10 @@ footer a {
     color: fuchsia;
 }
 
+#right-bar h2 {
+    text-align: center;
+    font-weight: bold;
+}
 @media screen and (min-width: 500px) {
     header div {
         display: flex;
@@ -347,13 +351,13 @@ footer a {
     }
 
     #left-bar {
-        flex: grow 1;
+        flex: 1.5 0 0;
         height: 100%;
     }
 
     #right-bar {
+        flex: 1 0 0;
         height: 100%;
-        flex-grow: 2;
         display: flex;
         flex-direction: column;
         align-items: stretch;
